@@ -50,6 +50,7 @@
                                     </button>
                                 </div>
                             </div>
+                            <a href="{{ route('showProduct', ['slug' => $product->slug]) }}">Voir</a>
                         </div>
                     </div>
                 </div>
